@@ -135,7 +135,6 @@ Installs or upgrades the Hugging Face Diffusers library, which is essential for 
 - `accelerate`: A Hugging Face utility to make running models on different hardware (CPU, single GPU, multiple GPUs, TPUs) easier and faster.
 - `safetensors`: A library for reading and writing tensors (model weights) efficiently and securely, often used as a safer/faster alternative to PyTorch’s default format.
 
-**Summary:**  
 Installs several supporting libraries:
 - `invisible_watermark` for watermarking images,
 - `transformers` for text processing and model loading,
@@ -173,10 +172,9 @@ These commands are typically run at the start of a notebook to ensure all necess
 - The `DiffusionPipeline` is a high-level interface for running diffusion models, such as Stable Diffusion, for generating images from text or other modalities.
 - With this class, you can quickly load and use pre-trained diffusion models for generating images, often with just a few lines of code.
 
----
-
-**In summary:**  
 These lines ensure you have the correct version of the Transformers library installed, import PyTorch for deep learning operations, and load the class needed to use diffusion models for text-to-image generation.
+
+---
 
 ```bash
 pip install -U ipywidgets
@@ -236,9 +234,6 @@ pipe.to("cuda")
 **Why do this?**
 - Running large models like Stable Diffusion on a GPU is much faster than on a CPU, especially for image generation.
 
-
-
-### **Summary**
 These lines download and prepare the Stable Diffusion XL model for efficient image generation, using GPU acceleration and memory-saving optimizations (float16, safetensors).
 
 ---
@@ -270,7 +265,6 @@ images = pipe(prompt=prompt).images[0]
 **Purpose:**  
 This line actually runs the AI model to generate an image that best matches the description in `prompt` and stores the resulting image object in the variable `images`.
 
-### **Summary**
 - The `prompt` describes exactly what kind of image you want.
 - `pipe(prompt=prompt).images[0]` uses a pre-trained AI model to generate that image and stores it in `images`.
 
@@ -291,7 +285,6 @@ This line actually runs the AI model to generate an image that best matches the 
 - **Epochs:** Training time depends on dataset size and model complexity.
 - **Checkpointing:** Intermediate models can be saved and loaded.
 
----
 
 ## Results & Examples
 
@@ -314,6 +307,8 @@ Prompt: "The image features a captivating collage of stars and galaxies, showcas
 - [StackGAN: Text to Photo-realistic Image Synthesis with Stacked GANs](https://arxiv.org/abs/1612.03242)
 - [AttnGAN: Fine-Grained Text to Image Generation with Attentional GANs](https://arxiv.org/abs/1802.05365)
 - [PyTorch Documentation](https://pytorch.org/docs/)
+
+---
 
 ### Contributing
 Contributions are welcome! Please open issues or submit pull requests for improvements, bug fixes, or suggestions.
