@@ -4,8 +4,6 @@
 
 Generate realistic images from natural language descriptions using Generative Adversarial Networks (GANs). This project demonstrates text-to-image synthesis in Python using PyTorch and Jupyter Notebook.
 
-
-
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -169,7 +167,7 @@ Here's an explanation of each line in your code:
 
 ---
 
-### 1. `!pip install transformers==4.43.2`
+### 3. `!pip install transformers==4.43.2`
 
 - The exclamation mark (`!`) is used in Jupyter notebooks to run a shell command.
 - `pip install` is the command for installing Python packages.
@@ -179,7 +177,7 @@ Here's an explanation of each line in your code:
 
 ---
 
-### 2. `import torch`
+### 4. `import torch`
 
 - This imports the PyTorch library.
 - PyTorch is a widely-used library for deep learning and tensor computations.
@@ -187,7 +185,7 @@ Here's an explanation of each line in your code:
 
 ---
 
-### 3. `from diffusers import DiffusionPipeline`
+### 5. `from diffusers import DiffusionPipeline`
 
 - This imports the `DiffusionPipeline` class from the Hugging Face `diffusers` library.
 - The `DiffusionPipeline` is a high-level interface for running diffusion models, such as Stable Diffusion, for generating images from text or other modalities.
@@ -224,7 +222,7 @@ Here’s a detailed explanation of these two lines:
 
 ---
 
-### 1.  
+### 6.  
 ```python
 pipe = DiffusionPipeline.from_pretrained(
     "stabilityai/stable-diffusion-xl-base-1.0",
@@ -253,7 +251,7 @@ pipe = DiffusionPipeline.from_pretrained(
 
 ---
 
-### 2.  
+### 7.  
 ```python
 pipe.to("cuda")
 ```
@@ -275,7 +273,7 @@ Certainly! Here’s an explanation of each line in your code:
 
 ---
 
-### 1.  
+### 8.  
 ```python
 prompt = "This image features a close-up of an eye, showcasing intricate details such as the iris and eyelashes. The artwork emphasizes the use of eye shadow and mascara, highlighting the beauty and artistry involved in eye makeup. Overall, it captures the organ's aesthetic appeal through a creative lens."
 ```
@@ -291,7 +289,7 @@ This text prompt is used to guide the text-to-image model (such as Stable Diffus
 
 ---
 
-### 2.  
+### 9.  
 ```python
 images = pipe(prompt=prompt).images[0]
 ```
