@@ -4,16 +4,16 @@ Generate realistic images from natural language descriptions using Generative Ad
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [How It Works](#how-it-works)
-- [Installation](#installation)
-- [Configuration & Parameters](#configuration--parameters)
-- [Training Details](#training-details)
-- [Results & Examples](#results--examples)
-- [Troubleshooting](#troubleshooting)
-- [References](#references)
-- [Contributing](#contributing)
-- [License](#license)
+- 🚀[Project Overview](#project-overview)
+- 🖼️[How It Works](#how-it-works)
+- 🤖[Installation](#installation)
+- 🧑‍💻[Configuration & Parameters](#configuration--parameters)
+- 🛠️[Training Details](#training-details)
+- 📊[Results & Examples](#results--examples)
+- 🧑‍💻[Troubleshooting](#troubleshooting)
+- 📚[References](#references)
+- 🤝[Contributing](#contributing)
+- 📄[License](#license)
 
 
 ## Project Overview
