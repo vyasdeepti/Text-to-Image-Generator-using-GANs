@@ -38,6 +38,22 @@ This repository implements a text-to-image generator using deep learning. By lev
 3. **Discriminator Network:** The discriminator evaluates whether images are real or generated and whether they match the text.
 4. **Adversarial Training:** The networks are trained in tandem to improve the realism of generated images and the accuracy of text-image pairing.
 
+# GANs (Generative Adversarial Networks) in text-to-image processing are deep learning models used to generate realistic images based on textual descriptions. Here’s a breakdown of how they work and their significance:
+
+## How GANs Work in Text-to-Image
+Generator: Takes a text description (like "a yellow bird with black wings") and tries to generate an image that matches the description.
+Discriminator: Judges whether an image matches the given text and whether it is real (from the dataset) or fake (generated).
+Both networks are trained together: the generator improves at creating convincing images, while the discriminator gets better at detecting mismatches.
+
+## Typical Workflow:
+Text Embedding: The input text is converted into a numerical representation (embedding), often using models like RNNs, LSTMs, or Transformers.
+Conditioning: The image generator network is conditioned on the text embedding, so it can produce images relevant to the text.
+Adversarial Training: The discriminator receives both the generated image and the embedding to decide if the image matches the text.
+
+## Popular GAN Architectures for Text-to-Image
+StackGAN: Generates images in multiple stages, from low to high resolution, based on the text.
+AttnGAN: Uses attention mechanisms to focus on relevant words in the text when generating different parts of the image.
+DM-GAN: Dynamically refines the image generation process based on feedback from the text.
 
 ## Installation
 
