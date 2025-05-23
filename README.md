@@ -22,7 +22,6 @@ Generate realistic images from natural language descriptions using Generative Ad
 - [Contributing](#contributing)
 - [License](#license)
 
----
 
 ## Project Overview
 
@@ -35,7 +34,6 @@ This repository implements a text-to-image generator using deep learning. By lev
 - **Jupyter Notebook Workflow:** Easy-to-follow, interactive, and visual.
 - **Customizable:** Easily extendable to new datasets or architectures.
 
----
 
 ## How It Works
 
@@ -44,7 +42,6 @@ This repository implements a text-to-image generator using deep learning. By lev
 3. **Discriminator Network:** The discriminator evaluates whether images are real or generated and whether they match the text.
 4. **Adversarial Training:** The networks are trained in tandem to improve the realism of generated images and the accuracy of text-image pairing.
 
----
 
 ## Installation
 
@@ -66,9 +63,6 @@ This repository implements a text-to-image generator using deep learning. By lev
     ```bash
     pip install torch torchvision matplotlib nltk
     ```
-
-
----
 
 ## Usage
 
