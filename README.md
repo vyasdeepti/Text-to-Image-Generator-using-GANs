@@ -1,5 +1,3 @@
-Absolutely! Here’s a more detailed and structured README.md for your Text-to-Image-Generator project, suitable for a public repository and for users who want to understand, use, or extend your work.
-
 ---
 
 # Text-to-Image Generator
@@ -39,14 +37,6 @@ This repository implements a text-to-image generator using deep learning. By lev
 
 ---
 
-## Demo
-
-![Sample Output](docs/sample_output.png)  
-*Text: "A small bird with blue wings and a short beak."*  
-*Generated image above. (Replace with your actual output if available.)*
-
----
-
 ## How It Works
 
 1. **Text Processing:** The model tokenizes and embeds the input text using NLP techniques.
@@ -77,8 +67,6 @@ This repository implements a text-to-image generator using deep learning. By lev
     pip install torch torchvision matplotlib nltk
     ```
 
-3. **Download or prepare your dataset:**
-    - See the "Usage" section for details.
 
 ---
 
@@ -90,18 +78,15 @@ This repository implements a text-to-image generator using deep learning. By lev
 2. **Configure parameters:**
     - Set paths, epochs, and hyperparameters in the configuration cells.
 
-3. **Prepare your data:**
-    - The notebook expects paired text and images. See the notebook's instructions for formatting.
-
-4. **Run cells sequentially:**
+3. **Run cells sequentially:**
     - Preprocessing → Model definition → Training → Generation → Visualization.
 
-5. **Generate images:**
+4. **Generate images:**
     - Input your own text prompts in the appropriate cell to generate new images.
 
 ---
 
-Here’s an explanation of the code you posted:
+Here’s an explanation of the code:
 
 ```python
 import torch
