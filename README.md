@@ -101,6 +101,35 @@ This repository implements a text-to-image generator using deep learning. By lev
 
 ---
 
+Here’s an explanation of the code you posted:
+
+```python
+import torch
+print(torch.__version__)
+```
+
+**Explanation:**
+
+- import torch  
+  This imports the PyTorch library, which is a popular open-source machine learning framework used for applications such as deep learning, computer vision, and natural language processing.
+
+- print(torch.__version__)  
+  This prints the currently installed version of PyTorch to the output.  
+  The __version__ attribute is a string that tells you exactly which version of the torch (PyTorch) package is being used in your environment.
+
+**Usage in Notebooks:**  
+This pattern is common at the top of machine learning or deep learning notebooks to verify that the correct version of PyTorch is installed and being used. This can help with reproducibility and debugging, especially if certain features or functions require a specific version.
+
+Let me know if you’d like more detail or want to know about other imports!
+
+
+
+
+
+
+
+
+
 ## Repository Structure
 
 ```
