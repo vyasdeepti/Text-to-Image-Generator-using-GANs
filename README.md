@@ -5,7 +5,7 @@ This project demonstrates text-to-image synthesis in Python using PyTorch and Ju
 
 **AIM: Generate realistic images from natural language descriptions using Generative Adversarial Networks (GANs).**
 
-## GANs (Generative Adversarial Networks) 
+## GANs (Generative Adversarial Networks) 🔊🗣
 GANs in text-to-image processing are deep learning models used to generate realistic images based on textual descriptions. 
 [Read more about GANs](https://insights.daffodilsw.com/blog/a-complete-guide-to-gans)
 
@@ -310,13 +310,13 @@ This line actually runs the AI model to generate an image that best matches the 
 
 ## Results & Examples
 
-🚀 Prompt: "This image features a close-up of an eye, showcasing intricate details such as the iris and eyelashes. The artwork emphasizes the use of eye shadow and mascara, highlighting the beauty and artistry involved in eye makeup. Overall, it captures the organ's aesthetic appeal through a creative lens"
+🔊🗣 Prompt: "This image features a close-up of an eye, showcasing intricate details such as the iris and eyelashes. The artwork emphasizes the use of eye shadow and mascara, highlighting the beauty and artistry involved in eye makeup. Overall, it captures the organ's aesthetic appeal through a creative lens"
 
 <img src="https://github.com/user-attachments/assets/815c66bc-a4ae-4f55-be19-8d9a3b9e52d5" alt="image" width="300"/>  
 
 
 
-🚀 Prompt: "The image features a captivating collage of stars and galaxies, showcasing the vastness and beauty of outer space. It includes various astronomical objects such as nebulae, constellations, and spiral galaxies, highlighting elements of the Milky Way. This striking composition emphasizes the wonders of astronomy and the universe we inhabit."
+🔊🗣 Prompt: "The image features a captivating collage of stars and galaxies, showcasing the vastness and beauty of outer space. It includes various astronomical objects such as nebulae, constellations, and spiral galaxies, highlighting elements of the Milky Way. This striking composition emphasizes the wonders of astronomy and the universe we inhabit."
 
 <img src="https://github.com/user-attachments/assets/559f9408-8c6a-44ee-95b9-7bf2b5895e94" alt="output" width="300"/>  
 
