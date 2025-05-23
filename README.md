@@ -268,7 +268,7 @@ This line actually runs the AI model to generate an image that best matches the 
 - The `prompt` describes exactly what kind of image you want.
 - `pipe(prompt=prompt).images[0]` uses a pre-trained AI model to generate that image and stores it in `images`.
 
----
+
 ## Configuration & Parameters
 
 - **Text Embedding:** (e.g., RNN, LSTM, or pretrained embeddings like GloVe)
@@ -276,7 +276,7 @@ This line actually runs the AI model to generate an image that best matches the 
 - **Hyperparameters:** Learning rate, batch size, number of epochs, etc.—editable in the notebook.
 - **Dataset:** Custom or public datasets (e.g., CUB-200, Oxford Flowers).
 
----
+
 ## Training Details
 
 - **Hardware:** Training on GPU recommended for speed.
@@ -306,7 +306,7 @@ Prompt: "The image features a captivating collage of stars and galaxies, showcas
 - [AttnGAN: Fine-Grained Text to Image Generation with Attentional GANs](https://arxiv.org/abs/1802.05365)
 - [PyTorch Documentation](https://pytorch.org/docs/)
 
----
+
 ### License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
