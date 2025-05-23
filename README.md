@@ -3,9 +3,9 @@
 Text-to-Image-Generator is a Jupyter Notebook-based project that enables users to generate images from textual descriptions using machine learning techniques. The repository showcases how natural language processing (NLP) and generative models can be combined to convert text prompts into corresponding images. It is ideal for learning, experimenting, and demonstrating the capabilities of text-to-image synthesis, making it useful for both educational purposes and as a foundation for further research or application development in the field of AI-powered image generation. 
 This project demonstrates text-to-image synthesis in Python using PyTorch and Jupyter Notebook.
 
-AIM: Generate realistic images from natural language descriptions using Generative Adversarial Networks (GANs). 
+**AIM: Generate realistic images from natural language descriptions using Generative Adversarial Networks (GANs).**
 
-# GANs (Generative Adversarial Networks) 
+## GANs (Generative Adversarial Networks) 
 GANs in text-to-image processing are deep learning models used to generate realistic images based on textual descriptions. Here’s a breakdown of how they work and their significance:
 
 ## How GANs Work in Text-to-Image
