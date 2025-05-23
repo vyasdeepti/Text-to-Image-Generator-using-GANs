@@ -135,8 +135,11 @@ Installs or upgrades the Hugging Face Diffusers library, which is essential for 
 
 ---
 
-### 2. ```python
+### 2. 
+```
+python
 !pip install invisible_watermark transformers accelerate safetensors
+
 ```
 
 - `invisible_watermark`: A library to add invisible watermarks to generated images (sometimes used for watermarking AI-generated images).
