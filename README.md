@@ -6,7 +6,8 @@ This project demonstrates text-to-image synthesis in Python using PyTorch and Ju
 **AIM: Generate realistic images from natural language descriptions using Generative Adversarial Networks (GANs).**
 
 ## GANs (Generative Adversarial Networks) 
-GANs in text-to-image processing are deep learning models used to generate realistic images based on textual descriptions. Here’s a breakdown of how they work and their significance:
+GANs in text-to-image processing are deep learning models used to generate realistic images based on textual descriptions. 
+[Read more about GANs](https://insights.daffodilsw.com/blog/a-complete-guide-to-gans)
 
 ## How GANs Work in Text-to-Image
 - 🧑‍💻 Generator: Takes a text description (like "a yellow bird with black wings") and tries to generate an image that matches the description.
