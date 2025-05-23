@@ -269,7 +269,6 @@ This line actually runs the AI model to generate an image that best matches the 
 - `pipe(prompt=prompt).images[0]` uses a pre-trained AI model to generate that image and stores it in `images`.
 
 ---
-
 ## Configuration & Parameters
 
 - **Text Embedding:** (e.g., RNN, LSTM, or pretrained embeddings like GloVe)
@@ -278,7 +277,6 @@ This line actually runs the AI model to generate an image that best matches the 
 - **Dataset:** Custom or public datasets (e.g., CUB-200, Oxford Flowers).
 
 ---
-
 ## Training Details
 
 - **Hardware:** Training on GPU recommended for speed.
@@ -309,10 +307,6 @@ Prompt: "The image features a captivating collage of stars and galaxies, showcas
 - [PyTorch Documentation](https://pytorch.org/docs/)
 
 ---
-
-### Contributing
-Contributions are welcome! Please open issues or submit pull requests for improvements, bug fixes, or suggestions.
-
 ### License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
