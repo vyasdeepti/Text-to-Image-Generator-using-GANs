@@ -135,8 +135,7 @@ Installs or upgrades the Hugging Face Diffusers library, which is essential for 
 
 ---
 
-### 2. 
-```python
+### 2. ```python
 !pip install invisible_watermark transformers accelerate safetensors
 ```
 
