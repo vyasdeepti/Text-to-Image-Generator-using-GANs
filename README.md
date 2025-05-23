@@ -236,7 +236,7 @@ pipe.to("cuda")
 **Why do this?**
 - Running large models like Stable Diffusion on a GPU is much faster than on a CPU, especially for image generation.
 
----
+
 
 ### **Summary**
 These lines download and prepare the Stable Diffusion XL model for efficient image generation, using GPU acceleration and memory-saving optimizations (float16, safetensors).
@@ -269,8 +269,6 @@ images = pipe(prompt=prompt).images[0]
 
 **Purpose:**  
 This line actually runs the AI model to generate an image that best matches the description in `prompt` and stores the resulting image object in the variable `images`.
-
----
 
 ### **Summary**
 - The `prompt` describes exactly what kind of image you want.
@@ -305,15 +303,11 @@ Prompt: "The image features a captivating collage of stars and galaxies, showcas
 
 ![output](https://github.com/user-attachments/assets/559f9408-8c6a-44ee-95b9-7bf2b5895e94)
 
-
-
-
 ## Troubleshooting
 
 - **CUDA Errors:** Ensure PyTorch is installed with CUDA support if using GPU.
 - **Data Format Issues:** Check that your data matches the expected format in the notebook.
 - **Memory Issues:** Reduce batch size or image resolution.
-
 
 ## References
 
@@ -322,10 +316,8 @@ Prompt: "The image features a captivating collage of stars and galaxies, showcas
 - [PyTorch Documentation](https://pytorch.org/docs/)
 
 ### Contributing
-
 Contributions are welcome! Please open issues or submit pull requests for improvements, bug fixes, or suggestions.
 
 ### License
-
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
