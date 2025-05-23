@@ -333,5 +333,5 @@ This line actually runs the AI model to generate an image that best matches the 
 
 
 ### License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License. 
 
