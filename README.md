@@ -4,7 +4,7 @@
 
 Generate realistic images from natural language descriptions using Generative Adversarial Networks (GANs). This project demonstrates text-to-image synthesis in Python using PyTorch and Jupyter Notebook.
 
----
+
 
 ## Table of Contents
 
