@@ -356,6 +356,9 @@ Let me know if you’d like to see how to display or save the generated image, o
 -
 - Prompt: "This image features a close-up of an eye, showcasing intricate details such as the iris and eyelashes. The artwork emphasizes the use of eye shadow and mascara, highlighting the beauty and artistry involved in eye makeup. Overall, it captures the organ's aesthetic appeal through a creative lens" ![image](https://github.com/user-attachments/assets/815c66bc-a4ae-4f55-be19-8d9a3b9e52d5)
 
+- Prompt: "The image features a captivating collage of stars and galaxies, showcasing the vastness and beauty of outer space. It includes various astronomical objects such as nebulae, constellations, and spiral galaxies, highlighting elements of the Milky Way. This striking composition emphasizes the wonders of astronomy and the universe we inhabit." ![output](https://github.com/user-attachments/assets/559f9408-8c6a-44ee-95b9-7bf2b5895e94)
+
+
 
 ---
 
