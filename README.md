@@ -37,10 +37,7 @@ Adversarial Training: The discriminator receives both the generated image and th
 - 📊 [Results & Examples](#results--examples)
 - 🧑‍💻 [Troubleshooting](#troubleshooting)
 - 📚 [References](#references)
-- 🤝 [Contributing](#contributing)
-- 📄 [License](#license)
-
-
+  
 ## Project Overview
 
 This repository implements a text-to-image generator using deep learning. By leveraging GANs, the model learns to create images that correspond to textual input, opening up possibilities for creative AI, automatic illustration, and assistive technology.
