@@ -26,6 +26,10 @@ Adversarial Training: The discriminator receives both the generated image and th
 - 🟢 AttnGAN: Uses attention mechanisms to focus on relevant words in the text when generating different parts of the image.
 - 🟢 DM-GAN: Dynamically refines the image generation process based on feedback from the text.
 
+![image](https://github.com/user-attachments/assets/1552418c-eb98-425f-a9d2-927ca92c1092)
+
+[Image source](https://www.mdpi.com/1424-8220/23/1/249)
+
 
 ## Table of Contents
 
