@@ -162,7 +162,6 @@ Installs several supporting libraries:
 - `accelerate` for optimizing model speed and hardware use,
 - `safetensors` for efficient model weight storage.
 
----
 
 **When are these used?**  
 These commands are typically run at the start of a notebook to ensure all necessary libraries are available for text-to-image generation and related tasks, especially when using Hugging Face models.
@@ -195,7 +194,6 @@ These commands are typically run at the start of a notebook to ensure all necess
 
 These lines ensure you have the correct version of the Transformers library installed, import PyTorch for deep learning operations, and load the class needed to use diffusion models for text-to-image generation.
 
----
 
 ```bash
 pip install -U ipywidgets
