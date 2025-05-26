@@ -330,6 +330,4 @@ This line actually runs the AI model to generate an image that best matches the 
 - [Generative Adversarial Networks: An Overview](https://arxiv.org/pdf/1710.07035)
 - [Training Generative Adversarial Networks with Limited Data](https://proceedings.neurips.cc/paper/2020/file/8d30aa96e72440759f74bd2306c1fa3d-Paper.pdf)
 
-### License
-This project is licensed under the MIT License. 
 
