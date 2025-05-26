@@ -18,8 +18,7 @@ Both networks are trained together: the generator improves at creating convincin
 ## Typical Workflow:
 - 🔶 Text Embedding: The input text is converted into a numerical representation (embedding), often using models like RNNs, LSTMs, or Transformers.
 - 🔶 Conditioning: The image generator network is conditioned on the text embedding, so it can produce images relevant to the text.
-
-Adversarial Training: The discriminator receives both the generated image and the embedding to decide if the image matches the text.
+- 🔶 Adversarial Training: The discriminator receives both the generated image and the embedding to decide if the image matches the text.
 
 ## Popular GAN Architectures for Text-to-Image
 - 🟢 StackGAN: Generates images in multiple stages, from low to high resolution, based on the text.
