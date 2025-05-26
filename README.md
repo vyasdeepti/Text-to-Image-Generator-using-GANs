@@ -27,7 +27,7 @@ Both networks are trained together: the generator improves at creating convincin
 
 ![image](https://github.com/user-attachments/assets/1552418c-eb98-425f-a9d2-927ca92c1092)
 
-[Image source](https://www.mdpi.com/1424-8220/23/1/249)
+Source: [Image Generation from Text Using StackGAN with Improved Conditional Consistency Regularization](https://www.mdpi.com/1424-8220/23/1/249)
 
 
 ## Table of Contents
