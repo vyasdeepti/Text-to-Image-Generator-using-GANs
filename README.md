@@ -324,9 +324,6 @@ This line actually runs the AI model to generate an image that best matches the 
 - **Data Format Issues:** Check that your data matches the expected format in the notebook.
 - **Memory Issues:** Reduce batch size or image resolution.
 
-```
-![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
-```
 
 ## References
 
